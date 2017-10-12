@@ -21,8 +21,12 @@
     &--front_page {
       padding-left: $gutter;
       text-align: left;
-      color: #eee;
-      font-size: 1.3125em;
+
+      .front_page {
+        color: #eee;
+        font-size: 1.3125em;
+        text-decoration: none;
+      }
     }
 
     &--about {

@@ -24,6 +24,9 @@ margin: 0;
   font-size: 16px;
   line-height: 1.5;
 
+  margin-right: $gutter;
+  margin-left: $gutter;
+
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -33,9 +36,10 @@ img { /* stylelint-disable-line */
 }
 
 main { /* stylelint-disable-line */
+  margin: 0;
   max-width: $max-width;
-  margin-right: $gutter;
-  margin-left: $gutter;
+  //margin-right: $gutter;
+  //margin-left: $gutter;
 
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku

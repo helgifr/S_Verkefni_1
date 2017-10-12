@@ -159,6 +159,10 @@
         @include offsetColumns(2);
       }
 
+      &-0 {
+        @include offsetColumns(0);
+      }
+
       &-sm {
         @media (max-width: 599px) {
           &-8 {
