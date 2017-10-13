@@ -3,9 +3,18 @@
     margin-bottom: 1.5em;
   }
 
+  &__q {
+    margin-bottom: 1em;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+
   &--quote {
     margin-bottom: 1.5em;
-    float: right;
+    justify-content: center;
 
+  }
+  &--paragraph {
   }
 }
