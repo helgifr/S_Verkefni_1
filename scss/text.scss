@@ -13,6 +13,11 @@
   &--quote {
     margin-bottom: 1.5em;
     justify-content: center;
+  }
 
+  @media(min-width: 1200px) {
+    &--quote {
+      float: right;
+    }
   }
 }
