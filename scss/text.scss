@@ -15,8 +15,12 @@
     justify-content: center;
   }
 
-  @media(min-width: 1200px) {
-    &--quote {
+    @media(min-width: 600px) {
+      &--quote {
+        float: right;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-left: 3rem;
+      }
     }
-  }
 }
