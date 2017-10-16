@@ -15,8 +15,13 @@
     justify-content: center;
     margin-bottom: $gutter*12.5;
 
-    @media(max-width: 1199px) {
+    @media (max-width: 1199px) {
       margin-bottom: $gutter*4.5;
+    }
+
+    @media (max-width: 599px) {
+      background-position: 0 0;
+      background-size: auto;
     }
   }
 
