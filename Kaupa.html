@@ -39,40 +39,20 @@
 
     <main>
       <section>
-        <div class="row">
-          <div class="col col-4 offset-1 col-sm-6 offset-sm-0">
+        <div class="row ">
+          <div class="col-4 offset-1 col-sm-6 offset-sm-0 col-sm-sm-12">
+            <div class="col ">
             <h3 class="heading">Persónuuplýsingar</h3>
           </div>
-          <div class="col col-4 offset-2 col-sm-6 offset-sm-0">
-            <h3 class="heading">Greiðsluuplýsingar</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-4 offset-1 col-sm-6 offset-sm-0">
+          <div class="col">
             <label for="name">Nafn:</label>
             <input type="text" name="name" value="" required>
           </div>
-          <div class="col col-4 offset-2 col-sm-6 offset-sm-0">
-            <label for="Card">Greiða með:</label>
-            <select name="Card">
-              <option value="Credit" selected>Kreditkorti</option>
-              <option value="Transfer">Millifæra</option>
-              <option value="Cash">Reiðufé</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-4 offset-1 col-sm-6 offset-sm-0">
+          <div class="col">
             <label for="socialSecNum">Kennitala:</label>
             <input type="text" name="socialSecNum" placeholder="123456-7890">
-          </div>
-          <div class="col col-4 offset-2 col-sm-6 offset-sm-0">
-            <label for="nameOnCard">Nafn á korti:</label>
-            <input type="text" name="nameOnCard">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-4 offset-1 col--radio_buttons col-sm-6 offset-sm-0">
+            </div>
+            <div class="col col--radio_buttons">
             Kyn:
             <div class="">
               <input type="radio" name="gender1" value="Woman">
@@ -87,11 +67,49 @@
               <label for="gender3">Annað</label>
             </div>
           </div>
-          <div class="col col-4 offset-2 col-sm-6 offset-sm-0">
+          <div class="col">
+            <label for="phone">Sími:</label>
+            <input type="text" name="phone" placeholder="+354 812 3456">
+            </div>
+
+            <div class="col">
+            <label for="address">Heimilisfang:</label>
+            <input type="text" name="address">
+            </div>
+
+            <div class="col">
+            <div class="">
+            <input type="checkbox" name="postList" checked>
+            <label for="postList">Skrá mig á póstlista</label>
+            </div>
+            </div>
+          </div>
+        <div class="col-4 offset-2 col-sm-6 offset-sm-0 col-sm-sm-12">
+          <div class="col">
+            <h3 class="heading">Greiðsluuplýsingar</h3>
+          </div>
+          <div class="col">
+            <label for="Card">Greiða með:</label>
+            <select name="Card">
+              <option value="Credit" selected>Kreditkorti</option>
+              <option value="Transfer">Millifæra</option>
+              <option value="Cash">Reiðufé</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="socialSecNum">Kennitala:</label>
+            <input type="text" name="socialSecNum" placeholder="123456-7890">
+          </div>
+          <div class="col">
+            <label for="nameOnCard">Nafn á korti:</label>
+            <input type="text" name="nameOnCard">
+          </div>
+          <div class="col">
             <label for="cardNum">Kortanúmer:</label>
             <input type="text" name="cardNum" placeholder="5999-9999-9999-9999">
-            <br>
-            Gildistími
+            </div>
+            <div class="col">
+              Gildistími:
             <div class="">
               <label for="month">Mán</label>
               <select name="month">
@@ -115,24 +133,10 @@
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
               </select>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-4 offset-1 col-sm-6 offset-sm-0">
-            <label for="phone">Sími:</label>
-            <input type="text" name="phone" placeholder="+354 812 3456">
-            <br>
-            <label for="address">Heimilisfang:</label>
-            <input type="text" name="address">
-            <br>
-            <div class="">
-            <label for="postList"></label>
-            <input type="checkbox" name="postList" checked>
-            Skrá mig á póstlista
           </div>
           </div>
-        </div>
+          </div>
+          </div>
         <div class="row">
           <div class="col col-12">
             <a href="#" class="button">Panta</a>
