@@ -2,19 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
-  flex-wrap: wrap;
+  padding: 10px $gutter;
   margin-right: -($gutter / 2);
   margin-left: -($gutter / 2);
-  padding: 10px $gutter;
+  list-style: none;
+  flex-wrap: wrap;
 
   @media (min-width: 1200px) {
     padding: $gutter/2 0;
   }
 
   &__item {
-    height: 100%;
     width: (1 / 12 * 100) * 1%;
+    height: 100%;
     padding-right: $gutter / 2;
     padding-left: $gutter / 2;
 
@@ -23,15 +23,15 @@
       text-align: left;
 
       .front_page {
-        color: #eee;
         font-size: 1.3125em;
+        color: #eee;
         text-decoration: none;
       }
     }
 
     &--about {
-      text-align: right;
       font-size: 1.125em;
+      text-align: right;
 
       .about {
         color: #eee;
@@ -39,8 +39,8 @@
       }
 
       @media (max-width: 599px) {
-        padding-right: $gutter;
         width: (3 / 12 * 100) * 1%;
+        padding-right: $gutter;
       }
     }
 
@@ -48,7 +48,7 @@
       padding-right: $gutter;
 
       .button {
-        padding: 0.3em 0.3em;
+        padding: 0.3em;
         font-size: 1.125em;
       }
 

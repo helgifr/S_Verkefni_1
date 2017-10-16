@@ -1,14 +1,13 @@
 .heading {
 
-
-  font-family: 'Roboto Slab', serif;
-  border-bottom: 0;
+  font-family: "Roboto Slab", serif;
   font-size: 1.3125em;
+  border-bottom: 0;
 
   &--buy {
     text-align: center;
 
-    .button {
+    .button { /* stylelint-disable-line */
 
     }
   }
@@ -20,14 +19,15 @@
       0% {
         opacity: 0;
       }
+
       100% {
         opacity: 1;
       }
     }
 
     &--one {
-      animation: appear 1s ease-in 1s forwards;
       font-size: 1.5em;
+      animation: appear 1s ease-in 1s forwards;
 
       @media (min-width: 600px) {
         font-size: 2.25em;
@@ -39,8 +39,8 @@
       animation: appear 1s ease-in 2s forwards;
 
       @media (min-width: 600px) {
-        font-size: 4.5em;
         margin-bottom: 1em;
+        font-size: 4.5em;
       }
     }
 
