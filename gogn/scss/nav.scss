@@ -1,0 +1,65 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-right: -($gutter / 2);
+  margin-left: -($gutter / 2);
+  padding: 10px $gutter;
+
+  @media (min-width: 1200px) {
+    padding: $gutter/2 0;
+  }
+
+  &__item {
+    height: 100%;
+    width: (1 / 12 * 100) * 1%;
+    padding-right: $gutter / 2;
+    padding-left: $gutter / 2;
+
+    &--front_page {
+      padding-left: $gutter;
+      text-align: left;
+
+      .front_page {
+        color: #eee;
+        font-size: 1.3125em;
+        text-decoration: none;
+      }
+    }
+
+    &--about {
+      text-align: right;
+      font-size: 1.125em;
+
+      .about {
+        color: #eee;
+        text-decoration: none;
+      }
+
+      @media (max-width: 599px) {
+        padding-right: $gutter;
+        width: (3 / 12 * 100) * 1%;
+      }
+    }
+
+    &--buy {
+      padding-right: $gutter;
+
+      .button {
+        padding: 0.3em 0.3em;
+        font-size: 1.125em;
+      }
+
+      @media (max-width: 1199px) {
+        width: (2 / 12 * 100) * 1%;
+      }
+
+      @media (max-width: 599px) {
+        display: none;
+      }
+    }
+
+  }
+}
