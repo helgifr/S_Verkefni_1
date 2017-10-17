@@ -1,39 +1,45 @@
 .header {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
 
   &--front_page {
-    width: 100%;
-    background: url("bg.jpg") fixed;
-    background-size: cover;
-    min-height: 100vh;
-    background-position: 50% 50%;
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
     margin-bottom: $gutter*12.5;
+    text-align: center;
+    flex-direction: column;
+    background: url("bg.jpg") fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    justify-content: center;
 
-    @media(max-width: 1199px) {
+    @media (max-width: 1199px) {
       margin-bottom: $gutter*4.5;
+    }
+
+    @media (max-width: 599px) {
+      background-position: 0 0;
+      background-size: auto;
     }
   }
 
   &--buy_page {
-    width: 100%;
-    background: url("bg-subpage.jpg");
-    background-size: cover;
-    min-height: 43vh;
-    background-position: 50% 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    min-height: 43vh;
     margin-bottom: $gutter*6.75;
+    flex-direction: column;
+    background: url("bg-subpage.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    justify-content: center;
   }
 
   .heading {
     font-size: 3.75em;
     color: #eee;
+    word-wrap: break-word;
   }
 }

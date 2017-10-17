@@ -1,11 +1,12 @@
 .profile {
+  margin-bottom: $gutter*2.5;
   text-align: center;
   justify-content: space-between;
 
   &--image {
-    border-radius: 50%;
     max-width: 80%;
     margin: 0 auto;
+    border-radius: 50%;
 
     @media (max-width: 1199px) {
       max-width: 100%;
@@ -14,22 +15,22 @@
 
   &--quote {
     margin: 1em 0;
+    font-size: 1.3125em;
     font-style: italic;
     font-weight: 600;
-    font-size: 1.3125em;
   }
 
   &--section {
-    margin-bottom: 10em;
+    margin-bottom: 0;
   }
 
   &--name {
-    font-weight: 600;
     font-size: 1.125em;
+    font-weight: 600;
   }
 
   &--time {
-    color: #8a8987;
     font-size: 0.875em;
+    color: #8a8987;
   }
 }
