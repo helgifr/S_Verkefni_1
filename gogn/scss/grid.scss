@@ -180,6 +180,7 @@
       &-8 {
         @include offsetColumns(8);
       }
+<<<<<<< HEAD
 
       &-3 {
         @include offsetColumns(3);
@@ -189,6 +190,21 @@
         @include offsetColumns(2);
       }
 
+=======
+
+      &-7 {
+        @include offsetColumns(7);
+      }
+
+      &-3 {
+        @include offsetColumns(3);
+      }
+
+      &-2 {
+        @include offsetColumns(2);
+      }
+
+>>>>>>> 1de220dc9df4b946c3d8319cb09b8b9e119ff625
       &-1 {
         @include offsetColumns(1);
       }

@@ -21,7 +21,7 @@
                 </h3>
               </a>
             </li>
-            <li class="nav__item offset-9 offset-sm-8 nav__item--about">
+            <li class="nav__item offset-9 offset-sm-8 offset-sm-sm-7 nav__item--about">
               <a href="um.html" class="about">Um</a>
             </li>
             <li class="nav__item nav__item--buy">
@@ -31,7 +31,7 @@
         </nav>
       </div>
       <div class="header">
-        <h1 class="heading col">
+        <h1 class="heading">
           Kaupa
         </h1>
       </div>
@@ -46,40 +46,40 @@
           </div>
           <div class="buy--kaupa col">
             <label for="name">Nafn:</label>
-            <input type="text" name="name" value="" required>
+            <input type="text" name="name" id="name" value="" required>
           </div>
           <div class="buy--kaupa col">
             <label for="socialSecNum">Kennitala:</label>
-            <input type="text" name="socialSecNum" placeholder="123456-7890">
+            <input type="text" name="socialSecNum" id="socialSecNum1" placeholder="123456-7890">
             </div>
             <div class="buy--kaupa col col--radio_buttons">
             Kyn:
             <div class="">
-              <input type="radio" name="gender1" value="Woman">
+              <input type="radio" name="gender1" id="gender1" value="Woman">
               <label for="gender1">Kona</label>
             </div>
             <div class="">
-              <input type="radio" name="gender2" value="Man">
-              <label for="gender3">Karl</label>
+              <input type="radio" name="gender2" id="gender2" value="Man">
+              <label for="gender2">Karl</label>
             </div>
             <div class="">
-              <input type="radio" name="gender2" value="Other">
+              <input type="radio" name="gender2" id="gender3" value="Other">
               <label for="gender3">Annað</label>
             </div>
           </div>
           <div class="buy--kaupa col">
             <label for="phone">Sími:</label>
-            <input type="text" name="phone" placeholder="+354 812 3456">
+            <input type="text" name="phone" id="phone" placeholder="+354 812 3456">
             </div>
 
             <div class="buy--kaupa col">
             <label for="address">Heimilisfang:</label>
-            <input type="text" name="address">
+            <input type="text" id="address" name="address">
             </div>
 
             <div class="buy--kaupa col">
             <div class="">
-            <input type="checkbox" name="postList" checked>
+            <input type="checkbox" name="postList" id="postList" checked>
             <label for="postList">Skrá mig á póstlista</label>
             </div>
             </div>
@@ -90,7 +90,7 @@
           </div>
           <div class="buy--kaupa col">
             <label for="Card">Greiða með:</label>
-            <select name="Card">
+            <select name="Card" id="Card">
               <option value="Credit" selected>Kreditkorti</option>
               <option value="Transfer">Millifæra</option>
               <option value="Cash">Reiðufé</option>
@@ -98,17 +98,17 @@
           </div>
           <div class="buy--kaupa col">
             <label for="nameOnCard">Nafn á korti:</label>
-            <input type="text" name="nameOnCard">
+            <input type="text" id="nameOnCard" name="nameOnCard">
           </div>
           <div class="buy--kaupa col">
             <label for="cardNum">Kortanúmer:</label>
-            <input type="text" name="cardNum" placeholder="5999-9999-9999-9999">
+            <input type="text" name="cardNum" id="cardNum" placeholder="5999-9999-9999-9999">
             </div>
             <div class="buy--kaupa col">
               Gildistími:
             <div class="">
               <label for="month">Mán</label>
-              <select name="month">
+              <select name="month" id="month">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -123,7 +123,7 @@
                 <option value="12">12</option>
               </select>
               <label for="year">Ár</label>
-              <select name="year">
+              <select name="year" id="year">
                 <option value="2017">2017</option>
                 <option value="2018">2018</option>
                 <option value="2019">2019</option>
