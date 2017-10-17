@@ -19,7 +19,6 @@
     padding-left: $gutter / 2;
 
     &--front_page {
-      padding-left: $gutter;
       text-align: left;
 
       .front_page {
@@ -40,12 +39,10 @@
 
       @media (max-width: 599px) {
         width: (3 / 12 * 100) * 1%;
-        padding-right: $gutter;
       }
     }
 
     &--buy {
-      padding-right: $gutter;
 
       .button {
         padding: 0.3em;
