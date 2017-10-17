@@ -11,7 +11,13 @@
   &--input { /* stylelint-disable-line */
 
   }
+
   &--kaupa {
     margin-bottom: 1em;
+  }
+
+  &--monthDate {
+    display: flex;
+    justify-content: space-between;
   }
 }

@@ -2,9 +2,9 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-left: $gutter;
-  margin-right: $gutter;
   margin-top: $gutter*3;
+  margin-right: $gutter;
+  margin-left: $gutter;
 
   @media (min-width: 1200px) {
     margin: 0 auto;
@@ -27,8 +27,6 @@
     }
 
     @media (max-width: 599px) {
-      background-position: 0 0;
-      background-size: auto;
       background-position: 5% 0;
       background-size: initial;
     }
