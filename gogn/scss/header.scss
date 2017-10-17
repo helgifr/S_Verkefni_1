@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: $gutter*3;
 
   &--front_page {
     display: flex;
