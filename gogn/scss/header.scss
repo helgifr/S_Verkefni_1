@@ -1,9 +1,7 @@
 .header {
   width: 100%;
   max-width: 1200px;
-<<<<<<< HEAD
   margin: 0 auto;
-=======
   margin-left: $gutter;
   margin-right: $gutter;
   margin-top: $gutter*3;
@@ -11,7 +9,6 @@
   @media (min-width: 1200px) {
     margin: 0 auto;
   }
->>>>>>> 1de220dc9df4b946c3d8319cb09b8b9e119ff625
 
   &--front_page {
     display: flex;
@@ -30,24 +27,18 @@
     }
 
     @media (max-width: 599px) {
-<<<<<<< HEAD
       background-position: 0 0;
       background-size: auto;
-=======
       background-position: 5% 0;
       background-size: initial;
->>>>>>> 1de220dc9df4b946c3d8319cb09b8b9e119ff625
     }
   }
 
   &--buy_page {
     display: flex;
     width: 100%;
-<<<<<<< HEAD
     min-height: 43vh;
-=======
     min-height: 54vh;
->>>>>>> 1de220dc9df4b946c3d8319cb09b8b9e119ff625
     margin-bottom: $gutter*6.75;
     flex-direction: column;
     background: url("bg-subpage.jpg");
