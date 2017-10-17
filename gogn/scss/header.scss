@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 60px;
 
   &--front_page {
     display: flex;
@@ -20,15 +21,15 @@
     }
 
     @media (max-width: 599px) {
-      background-position: 0 0;
-      background-size: auto;
+      background-position: 5% 0;
+      background-size: initial;
     }
   }
 
   &--buy_page {
     display: flex;
     width: 100%;
-    min-height: 43vh;
+    min-height: 54vh;
     margin-bottom: $gutter*6.75;
     flex-direction: column;
     background: url("bg-subpage.jpg");

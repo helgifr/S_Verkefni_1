@@ -181,6 +181,10 @@
         @include offsetColumns(8);
       }
 
+      &-7 {
+        @include offsetColumns(7);
+      }
+
       &-3 {
         @include offsetColumns(3);
       }
