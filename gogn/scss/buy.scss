@@ -16,8 +16,12 @@
     margin-bottom: 1em;
   }
 
-  &--monthDate {
+  &--date {
     display: flex;
     justify-content: space-between;
+
+    &__monthYear {
+      width: 30%;
+    }
   }
 }
