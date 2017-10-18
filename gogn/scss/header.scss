@@ -2,13 +2,6 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: $gutter*3;
-  margin-right: $gutter;
-  margin-left: $gutter;
-
-  @media (min-width: 1200px) {
-    margin: 0 auto;
-  }
 
   &--front_page {
     display: flex;
@@ -48,5 +41,10 @@
     font-size: 3.75em;
     color: #eee;
     word-wrap: break-word;
+
+    @media (max-width: 1199px) {
+      margin-right: $gutter;
+      margin-left: $gutter;
+    }
   }
 }
